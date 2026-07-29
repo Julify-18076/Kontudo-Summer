@@ -1,0 +1,12 @@
+/* Banner restaurado da versão anterior */
+.main-banner{height:min(48vw,720px);min-height:620px}
+.banner-image{object-position:center center}
+.banner-shade{background:linear-gradient(90deg,rgba(3,45,65,.78) 0%,rgba(4,62,82,.48) 40%,rgba(4,62,82,.05) 72%)}
+.banner-content{left:max(7%,calc((100% - 1180px)/2));width:min(650px,52%);color:#fff}
+.banner-content>span{display:block;color:#ffe08a;font-size:11px;letter-spacing:2px}.banner-content>span i{display:none}
+.banner-content h1{color:#fff;font-size:clamp(50px,6vw,86px);line-height:1.02;letter-spacing:-4px;margin:20px 0}.banner-content h1 em{font-style:normal;color:#65ddd8}
+.banner-content>p{color:#fff;font-size:17px;line-height:1.75;max-width:570px}
+.banner-actions{display:flex;gap:12px;margin-top:30px}.banner-actions a{min-height:48px;padding:0 23px;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:700}.banner-actions a:first-child{background:#08aebb;color:#fff}.banner-actions a:last-child{border:1px solid #ffffffad;background:#ffffff10;color:#fff}.banner-actions a:hover{transform:translateY(-1px)}
+@media(max-width:950px){.main-banner{height:620px}.banner-content{width:62%}.banner-content h1{font-size:61px}}
+@media(max-width:700px){.main-banner{height:640px}.banner-image{object-position:65% center}.banner-shade{background:rgba(3,45,65,.72)}.banner-content{left:22px;right:22px;width:auto;top:50%}.banner-content h1{font-size:47px;letter-spacing:-2.5px}.banner-content>p{font-size:14px}.banner-actions{flex-direction:column;align-items:stretch}.banner-actions a{width:100%}}
+@media(max-width:380px){.banner-content h1{font-size:40px}.main-banner{height:620px}}

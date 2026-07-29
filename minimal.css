@@ -1,0 +1,31 @@
+/* Refinamento minimalista inspirado na identidade visual Kontudo Surf */
+:root{--navy:#062653;--blue:#062653;--teal:#08b8c4;--aqua:#08c6d7;--gold:#08b8c4;--sand:#f8fbfd;--cream:#fff;--ink:#062653;--coral:#08b8c4}
+body{font-family:Poppins,sans-serif;color:#062653;background:#fff}
+.topbar{height:30px;background:#062653;font-size:11px;font-weight:500;letter-spacing:.3px}
+.header{height:80px;padding:0 max(5%,calc((100% - 1180px)/2));gap:32px;background:#fff;box-shadow:0 1px 0 #e4edf4}
+.brand img{width:158px;height:68px;object-fit:contain;background:#fff}
+.nav{gap:26px;font-size:13px;font-weight:500}.nav a:after{background:#08b8c4;bottom:-9px}
+.header-cta{padding:11px 20px;background:#08b8c4;font-size:13px;border-radius:6px}
+.hero{min-height:620px;padding:7% max(6%,calc((100% - 1180px)/2));background-position:center}
+.hero-overlay{background:linear-gradient(90deg,rgba(6,38,83,.82),rgba(6,38,83,.38) 52%,rgba(6,38,83,.04))}
+.hero-content{max-width:610px}.eyebrow{color:#72e2e8;font-size:11px;letter-spacing:1.8px}
+.hero h1{font-family:Poppins,sans-serif;font-size:clamp(44px,5vw,68px);font-weight:600;line-height:1.08;letter-spacing:-2.5px;margin:18px 0}.hero h1 em{color:#61dce3}
+.hero p{font-size:16px;line-height:1.75;color:rgba(255,255,255,.86);max-width:570px}
+.actions{margin-top:28px}.btn{font-size:13px;border-radius:6px;padding:14px 21px;transition:.2s}.btn-primary{background:#08b8c4}.btn:hover{transform:translateY(-1px);box-shadow:none}.btn-ghost{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.55)}
+.scroll{display:none}
+.benefits{max-width:1180px;margin:0 auto;border-radius:0;box-shadow:none;border-bottom:1px solid #e4edf4;padding:28px 0;background:#fff}
+.benefits>div{padding:0 26px;border-color:#e4edf4}.benefits span{font-size:22px;color:#08b8c4}.benefits p{font-size:11px;color:#7b8798}.benefits strong{font-size:13px;color:#062653;font-weight:600}
+.section{padding-top:90px;padding-bottom:90px}.section-head{margin-bottom:36px}.section-head h2,.about h2,.contact h2,.wholesale h2,.testimonials h2,.flow-intro h2{font-family:Poppins,sans-serif;font-weight:600;color:#062653;letter-spacing:-1.5px;font-size:clamp(30px,3.3vw,44px)}
+.section-head>p,.about-copy>p,.contact-copy p{font-size:14px;color:#667085;line-height:1.8}.eyebrow.dark{color:#08b8c4}
+.category-grid{gap:16px}.category{height:390px;border-radius:8px;box-shadow:none;padding:26px;transition:.25s}.category:hover{transform:translateY(-3px)}.category:after{background:linear-gradient(transparent,rgba(6,38,83,.9))}.category h3{font-family:Poppins,sans-serif;font-size:27px;font-weight:600;margin:4px 0 12px}.category small{font-size:10px}.category a{font-size:12px;font-weight:600}.pattern{font-family:Poppins,sans-serif;font-size:37px;letter-spacing:3px}
+.c1{background:linear-gradient(145deg,#0c667c,#08b8c4)}.c2{background:linear-gradient(145deg,#062653,#0a527b)}.c3{background:linear-gradient(145deg,#169aa4,#79d8da)}
+.category-links{gap:8px;margin-top:24px}.category-links a{border-color:#dce8f0;border-radius:5px;padding:9px 14px;font-size:11px;font-weight:500;color:#062653}.category-links a:hover{transform:none;background:#eafafb;color:#0698a3;border-color:#bce9ec}.category-links .all-products{background:#062653;color:#fff}
+.b2b-flow{padding-top:88px;padding-bottom:88px;background:#f8fbfd}.flow-intro{margin-bottom:32px}.flow-intro p{font-size:14px;color:#667085}.flow-steps{gap:14px}.flow-steps article{border-radius:7px;padding:25px;border:1px solid #e4edf4;box-shadow:none}.flow-steps article>span{font-family:Poppins,sans-serif;font-size:20px;color:#08b8c4}.flow-steps h3{font-family:Poppins,sans-serif;font-size:16px;font-weight:600}.flow-steps p{font-size:12px;color:#667085}.flow-steps a{font-size:11px;color:#0698a3}
+.wholesale{min-height:580px;background:#062653}.wholesale-art{background:#f1fafb}.wholesale-art>span{font-size:150px;color:#08b8c4;filter:none}.wave{border-color:rgba(8,184,196,.15);border-width:28px}.wholesale-copy{padding:85px 12%}.wholesale-copy h2{color:#fff}.wholesale-copy p{font-size:14px;color:#dce8f0}.wholesale-copy li{font-size:13px}.wholesale-copy li:before{color:#08b8c4}.btn-gold{background:#08b8c4;color:#fff}
+.about{gap:70px}.numbers{gap:34px}.numbers strong{font-family:Poppins,sans-serif;font-size:20px;color:#08b8c4}.about-card{border-radius:8px;background:#f8fbfd;border:1px solid #e4edf4;padding:48px;transform:none;box-shadow:none}.about-card .sun{font-size:48px}.about-card blockquote{font-family:Poppins,sans-serif;font-size:20px;font-weight:500;color:#062653}.about-card>span{font-size:12px;color:#667085}
+.testimonials{padding-top:88px;padding-bottom:88px;background:#f8fbfd}.quotes{gap:14px;margin-top:34px}.quotes article{border:1px solid #e4edf4;border-radius:7px;box-shadow:none;padding:26px;font-size:13px;color:#667085}.quotes strong{font-size:11px;color:#08b8c4}
+.contact{gap:70px}.contact-note{border-radius:6px;background:#f8fbfd;border:1px solid #e4edf4;font-size:12px}.form{border-radius:8px;padding:30px;box-shadow:none;border-color:#dce8f0;gap:16px}.form label{font-size:11px;font-weight:600}.form input,.form select{border-radius:5px;font-size:12px;padding:12px;border-color:#dce8f0}.form small{font-size:10px}
+footer{background:#062653;padding-top:50px}footer>img{width:190px;height:110px;object-fit:contain;background:#fff;border-radius:4px;padding:3px}footer p,footer nav,.footer-bottom{font-size:11px}.footer-bottom{border-color:rgba(220,232,240,.18)}
+.whatsapp{width:52px;height:52px;font-size:24px;box-shadow:0 7px 20px rgba(6,38,83,.18)}
+@media(max-width:900px){.header{height:72px}.brand img{width:145px;height:59px}.nav.open{top:72px;border-top:1px solid #e4edf4;box-shadow:0 10px 20px rgba(6,38,83,.08)}.hero{min-height:620px}.benefits{padding:20px 5%}.wholesale-art{min-height:300px}}
+@media(max-width:560px){.hero{min-height:650px}.hero h1{font-size:42px}.section{padding-top:72px;padding-bottom:72px}.category{height:320px}.about-card{padding:30px}.form{padding:22px}}

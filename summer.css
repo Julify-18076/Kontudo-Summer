@@ -1,0 +1,15 @@
+/* Identidade de verão + responsividade multiplaforma */
+:root{--navy:#063f5c;--blue:#075b75;--teal:#08b8c4;--aqua:#35d0cf;--gold:#f5b82e;--sand:#fff8eb;--cream:#fffefa;--ink:#123f53;--coral:#f47f68}
+body{color:#123f53;background:#fffefa}
+.header,.brand img{background:#fffefa}.header{box-shadow:0 1px 0 #eee8dc}
+.hero-overlay{background:linear-gradient(90deg,rgba(4,62,82,.76),rgba(5,93,108,.26) 54%,rgba(246,184,46,.06))}
+.eyebrow{color:#ffe08a}.eyebrow.dark{color:#08aebb}.hero h1 em{color:#ffd05b}.btn-primary{background:#08aebb}
+.benefits{background:#fffefa;border-color:#eee8dc}
+.c1{background:linear-gradient(145deg,#f47f68,#f6b84a)}.c2{background:linear-gradient(145deg,#087e91,#26c5c4)}.c3{background:linear-gradient(145deg,#edac3f,#f48a68)}
+.b2b-flow,.about-card,.testimonials,.contact-note{background:#fff8eb}.about-card,.contact-note{border-color:#f1e4cb}
+.wholesale{background:#064b65}.wholesale-art{background:linear-gradient(145deg,#fff2c9,#fbd176)}.wholesale-art>span{color:#f3a900}.wave{border-color:rgba(8,184,196,.25)}
+footer{background:#063f5c}
+@media(max-width:1100px){.header{padding-left:4%;padding-right:4%;gap:20px}.nav{gap:17px}.section,.b2b-flow{padding-left:5%;padding-right:5%}.hero{padding-left:6%;padding-right:6%}.benefits{max-width:90%}}
+@media(max-width:900px){.nav.open{border-color:#eee8dc}.hero{background-position:62% center}.benefits{max-width:100%}.flow-steps article{min-height:150px}.category-links a{min-height:42px;display:inline-flex;align-items:center}.form input,.form select,.form button{min-height:46px}}
+@media(max-width:600px){.topbar{height:auto;min-height:32px;padding:7px 12px}.header{padding:0 18px}.hero{min-height:650px;padding:75px 22px 55px;background-position:68% center}.hero-overlay{background:linear-gradient(90deg,rgba(4,62,82,.9),rgba(4,62,82,.56))}.hero h1{font-size:40px;letter-spacing:-1.7px}.hero p{font-size:14px}.actions{gap:10px}.actions .btn{width:100%}.benefits{grid-template-columns:1fr 1fr}.benefits>div{min-height:78px;padding:10px}.section,.b2b-flow{padding:68px 22px}.section-head h2,.about h2,.contact h2,.wholesale h2,.testimonials h2,.flow-intro h2{font-size:31px;letter-spacing:-1px}.category{height:310px}.category-links{display:grid;grid-template-columns:1fr 1fr}.category-links a,.category-links .all-products{justify-content:center;margin:0;text-align:center}.category-links .all-products{grid-column:1/-1}.wholesale-copy{padding:65px 22px}.about{gap:42px}.about-card{padding:28px}.numbers{display:grid;grid-template-columns:1fr 1fr;gap:20px}.form{padding:20px}.quotes{gap:12px}footer nav{flex-wrap:wrap;gap:16px 24px}}
+@media(max-width:380px){.brand img{width:132px}.hero h1{font-size:35px}.benefits{grid-template-columns:1fr}.category-links{grid-template-columns:1fr}.category-links .all-products{grid-column:auto}.numbers{grid-template-columns:1fr}}

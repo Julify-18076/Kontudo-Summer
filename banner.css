@@ -1,0 +1,11 @@
+/* Banner panorâmico inspirado na composição da referência Kontudo Surf */
+.hero{min-height:0;height:clamp(540px,42vw,670px);padding:0 max(6%,calc((100% - 1180px)/2));background-position:center center;background-size:cover;align-items:center}
+.hero-overlay{background:linear-gradient(90deg,rgba(255,254,250,.98) 0%,rgba(255,254,250,.94) 27%,rgba(255,254,250,.72) 43%,rgba(255,254,250,.12) 65%,rgba(255,254,250,0) 100%)}
+.hero-content{max-width:690px;color:#063f5c;padding:42px 0}.hero .eyebrow{display:flex;align-items:center;gap:20px;color:#08aebb;font-size:13px;font-weight:700;letter-spacing:2px}.hero .eyebrow:after{content:"";width:76px;height:2px;background:#08b8c4}
+.hero h1{max-width:760px;color:#063f5c;font-size:clamp(45px,4.5vw,70px);font-weight:650;line-height:1.17;letter-spacing:-2.6px;margin:23px 0 14px}.hero h1 em{display:inline;color:#063f5c;font-style:normal}
+.hero p{max-width:590px;color:#31576a;font-size:17px;line-height:1.65;margin:0}
+.hero .actions{margin-top:30px}.hero .btn-primary{background:#08aebb;color:#fff}.hero .btn-ghost{background:#fffefa;color:#063f5c;border-color:#b9cbd1}.hero .btn-ghost:hover{border-color:#08aebb;color:#078e9a}
+@media(max-width:1100px){.hero{height:590px;background-position:58% center}.hero-overlay{background:linear-gradient(90deg,rgba(255,254,250,.98),rgba(255,254,250,.9) 43%,rgba(255,254,250,.2) 74%)}.hero-content{max-width:610px}.hero h1{font-size:52px}}
+@media(max-width:900px){.hero{height:570px;background-position:62% center}.hero-overlay{background:linear-gradient(90deg,rgba(255,254,250,.98) 0%,rgba(255,254,250,.92) 55%,rgba(255,254,250,.45) 100%)}.hero-content{max-width:570px}.hero h1{font-size:47px}}
+@media(max-width:600px){.hero{height:auto;min-height:610px;padding:70px 22px 60px;background-position:68% center}.hero-overlay{background:rgba(255,254,250,.9)}.hero-content{padding:0;max-width:100%}.hero .eyebrow{font-size:10px;gap:12px}.hero .eyebrow:after{width:38px}.hero h1{font-size:39px;line-height:1.14;letter-spacing:-1.7px;margin-top:20px}.hero p{font-size:14px;color:#31576a}.hero .actions{margin-top:26px}}
+@media(max-width:380px){.hero{min-height:590px}.hero h1{font-size:34px}}

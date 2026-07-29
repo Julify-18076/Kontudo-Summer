@@ -1,0 +1,2 @@
+.categories-section .category-slider{max-width:1250px}.categories-section .category-track{padding-bottom:16px}.categories-section .category-card h3{min-height:43px;display:flex;align-items:flex-start;justify-content:center;font-size:12px;line-height:1.45;text-transform:uppercase}.categories-section .category-card{flex-basis:215px}
+@media(max-width:700px){.categories-section .category-card{flex-basis:175px}.categories-section .category-card h3{font-size:10px;min-height:40px}}
